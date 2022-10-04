@@ -1,0 +1,30 @@
+:root {
+    --yapexRed: #fe6057;
+    --yapexBlue: #2a3462;
+    --zauracBlue: #1de6ff;
+}
+.voyager .side-menu.sidebar-inverse {
+    background: white !important;
+}
+.voyager .side-menu.sidebar-inverse nav .navbar-nav li a:hover {
+    background: var(--zauracBlue);
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li.active>a{
+    color: var(--zauracBlue);
+}
+.voyager .side-menu.sidebar-inverse .navbar li.active>a:hover{
+    color: white;
+}
+.voyager .side-menu.sidebar-inverse nav .navbar-nav{
+    background-color:#fafafa;
+}
+.voyager .app-container{
+    background-color: #fafafa;
+}
+.voyager .side-menu.sidebar-inverse{
+    background-color: #fafafa !important;
+
+}
+
+
